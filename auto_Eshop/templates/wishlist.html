@@ -54,7 +54,7 @@
 </nav>
     </nav>
     <div class="container mt-4">
-    {% if myarr|length > 1 %}
+    {% if items|length > 1 %}
         <h3>Items saved in your wishlist:</h3>
     {% for item in items %}
     {% if forloop.counter0|divisibleby:3 %} <div class="row"> {%  endif %}
